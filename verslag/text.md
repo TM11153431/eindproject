@@ -20,7 +20,11 @@ Maandag 12 juni: Verder gegaan met de line graph van % renewables en % solar and
 Dinsdag 13 juni: De interactie is werkend. Nu ben ik nog bezig met de x-as veranderen. Voor nu heb ik de HPI index gebruikt maar is nog niet zeker welke ik nou echt wil laten  correleren.
 
 Woensdag: Checkbox afhebben
+
 Donderdag: Beginnen met de tweede interactie met zoeken van data en voorbeelden
+
 Vrijdag: Presentaties en werken 
+
 Zaterdag: Interactie beginnen en bruiloft
+
 Zondag: Interactie beginnen en BSE
