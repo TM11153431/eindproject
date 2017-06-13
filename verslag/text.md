@@ -12,3 +12,15 @@ Woensdag 7 juni: Begonnen met een library dc die mij erg veel werk zou besparen.
 Donderdag 8 juni: Helaas mocht ik de dc library niet gebruiken dus veel tijd weggegooid. Oude opdracht van dataprocessing gebruikt voor het maken van datamap.
 
 Vrijdag 9 juni: Begonnen met de interactieve grafiek met checkbox. Weet niet goed hoe ik mijn data moet inladen dus loopt niet helemaal op rolletjes.
+
+Zondag 11 juni: Heel lang bezig geweest met data in de goede JSON format te zetten. Uiteindelijk gelukt.
+
+Maandag 12 juni: Verder gegaan met de line graph van % renewables en % solar and wind energy over de jaren heen per land. Uiteindelijk vond ik dit toch niet overzichtelijk genoeg aangezien het niet duidelijk was wat de verschillen tussen landen is op deze manier. Nu heb ik iets anders gevonden. Een scatterplot waarbij het land oplicht als je het puntje selecteerd. Het percentage renewables per land dat groene energie is op de y as en een check box aan keuze op de x as.
+
+Dinsdag 13 juni: De interactie is werkend. Nu ben ik nog bezig met de x-as veranderen. Voor nu heb ik de HPI index gebruikt maar is nog niet zeker welke ik nou echt wil laten  correleren.
+
+Woensdag: Checkbox afhebben
+Donderdag: Beginnen met de tweede interactie met zoeken van data en voorbeelden
+Vrijdag: Presentaties en werken 
+Zaterdag: Interactie beginnen en bruiloft
+Zondag: Interactie beginnen en BSE
