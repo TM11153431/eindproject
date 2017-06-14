@@ -19,7 +19,7 @@ Maandag 12 juni: Verder gegaan met de line graph van % renewables en % solar and
 
 Dinsdag 13 juni: De interactie is werkend. Nu ben ik nog bezig met de x-as veranderen. Voor nu heb ik de HPI index gebruikt maar is nog niet zeker welke ik nou echt wil laten  correleren.
 
-Woensdag: Checkbox afhebben
+Woensdag: Checkbox afgemaakt maar op een vreemde manier. Heel erg onduidelijk waarom hij niet werkte maar heb nu een extra updater functie gemaakt. Hier moet ik later nog een keer naar gaan kijken. Vanavond wil ik de kleuren transparant maken zodat het niet zo opvallend is en eigenlijk nog zoeken naar goeie x-as vergelijkingen met groene energie. Morgen wil ik beginnen aan mijn nieuwe graph en zoeken naar een goed voorbeeld om het te vergelijken met een tabel.
 
 Donderdag: Beginnen met de tweede interactie met zoeken van data en voorbeelden
 
