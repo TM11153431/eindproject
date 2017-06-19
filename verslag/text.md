@@ -29,8 +29,8 @@ Zaterdag 17 juni: Interactie beginnen en bruiloft
 
 Zondag 18 juni: Interactie beginnen en BSE
 
-Maandag 19 juni: Zoomable multiple line graph afmaken en tooltip toevoegen
+Maandag 19 juni: Zoomable multiple line graph afmaken en tooltip toevoegen. Diegene die ik wilde gebruiken kon alleen de x as verlengen. Op die manier was de grafiek totaal niet duidelijk en zou het storytelling element niet overkomen. Toen gezocht naar een nieuwe. Die nu gevonden maar er moet nog wel veel aan worden gedaan. De tooltip is nu toegevoegd maar hij weet nog niet welke lijn welke is.
 
-Dinsdag 20 juni: Interactieve table toevoegen en data zoeken voor table. Bedenken wat ik nu eigenlijk nog extra wil vertellen.
+Dinsdag 20 juni: Interactieve table toevoegen en data zoeken voor tabel. Bedenken wat ik nu eigenlijk nog extra wil vertellen.
 
 
