@@ -33,15 +33,14 @@ Maandag 19 juni: Zoomable multiple line graph afmaken en tooltip toevoegen. Dieg
 
 Dinsdag 20 juni: Interactieve table toevoegen en data zoeken voor tabel. Bedenken wat ik nu eigenlijk nog extra wil vertellen.
 
+Woensdag 21 juni: Vandaag heb ik een mooi template gemaakt en alle losse dingen weg gegooid. Mijn versie van d3v3 en d3v4 konden niet samen wat wel kon op "niet mac computers". Hier baalde ik erg van en ben ik veel tijd aan verloren. Nu zorg ik dat ik twee verschillende html files heb zodat de twee versies niet samen komen. Vanavond moet ik mij nog snel inschrijven voor de github ding en de kleuren + tekst veranderen van mijn renewables.html file. 
+
 Wat moet ik nog doen: 
-- leuke x-as variabelen bedenken voor bij de tweede interactieve visualisatie
-- zorgen dat die functie goed werkt en geen dubbele dingen doet
-- zorgen dat die chloropleth niet opnieuw wordt afgebeeld
-
-- zorgen voor extra tabel met bijpassende info
-- zorgen dat de punten verder uit elkaar staan
-
-- kijken naar nog een vierde visualisatie
+- zorgen dat de tooltip goed werkt en de juiste info laat zien
+- een tabel maken met kosten daarin
+- een goede legende
+- nog een extra visualisatie bedenken snel
+- alles van de renewables goed maken
 
 
 
