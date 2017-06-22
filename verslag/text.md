@@ -37,7 +37,10 @@ Woensdag 21 juni: Vandaag heb ik een mooi template gemaakt en alle losse dingen 
 
 Donderdag 22 juni: vandaag ben ik bezig geweest om de tooltip rechts van mijn linegraph te zetten. Vervolgens heb ik een tabel gemaakt met Datatables maar dit duurde allemaal enorm lang. Uiteindelijk is het gelukt om de table in de buurt te krijgen van de linegraph maar elke keer als er over de tooltip heen wordt gescrolled dan gaat hij naar beneden. Verder is de dataset van de linegraph nog in het js file en niet ingeladen. 
 
+morgen af:
+
 Linegraph: 
+- goede data bij de wereld delen
 - een y-as
 - tooltip moet rechts staan en een bepaalde grote hebben
 - tooltips moeten nog info krijgen
