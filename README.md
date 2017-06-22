@@ -42,3 +42,6 @@ Database 4:
 Mitigation of CO2eq from Ref
 Voor China, US, EU, developed countries, developing countries
 Vanaf 2000 tot 2100
+
+[![BCH compliance](https://bettercodehub.com/edge/badge/BelleBruinsma/eindproject?branch=master)](https://bettercodehub.com/)
+<img src='https://bettercodehub.com/edge/badge/BelleBruinsma/eindproject?branch=master'>
