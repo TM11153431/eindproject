@@ -1,6 +1,8 @@
 https://bellebruinsma.github.io/eindproject/week1/avond.html
 
 
+https://bellebruinsma.github.io/eindproject/week3/wauwie.html
+
 
 # eindproject
 
