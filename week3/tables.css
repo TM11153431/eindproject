@@ -1,0 +1,15 @@
+
+#demo, #example { 
+ 	height: 200px;
+ 	width: 450px;
+ 	font-size: 12px;
+ 	text-align: left;
+}
+
+
+
+/* Ensure that the demo table scrolls 
+div { white-space: nowrap; }
+
+tr { height: 50px; }
+*/
