@@ -35,12 +35,24 @@ Dinsdag 20 juni: Interactieve table toevoegen en data zoeken voor tabel. Bedenke
 
 Woensdag 21 juni: Vandaag heb ik een mooi template gemaakt en alle losse dingen weg gegooid. Mijn versie van d3v3 en d3v4 konden niet samen wat wel kon op "niet mac computers". Hier baalde ik erg van en ben ik veel tijd aan verloren. Nu zorg ik dat ik twee verschillende html files heb zodat de twee versies niet samen komen. Vanavond moet ik mij nog snel inschrijven voor de github ding en de kleuren + tekst veranderen van mijn renewables.html file. 
 
-Wat moet ik nog doen: 
-- zorgen dat de tooltip goed werkt en de juiste info laat zien
-- een tabel maken met kosten daarin
-- een goede legende
-- nog een extra visualisatie bedenken snel
-- alles van de renewables goed maken
+Donderdag 22 juni: vandaag ben ik bezig geweest om de tooltip rechts van mijn linegraph te zetten. Vervolgens heb ik een tabel gemaakt met Datatables maar dit duurde allemaal enorm lang. Uiteindelijk is het gelukt om de table in de buurt te krijgen van de linegraph maar elke keer als er over de tooltip heen wordt gescrolled dan gaat hij naar beneden. Verder is de dataset van de linegraph nog in het js file en niet ingeladen. 
+
+Linegraph: 
+- een y-as
+- tooltip moet rechts staan en een bepaalde grote hebben
+- tooltips moeten nog info krijgen
+- line voor EU, China, Developing, developed countries moet er nog bij
+- legende maken
+
+Tabel:
+- tabel namen moeten kleiner
+- zorgen dat hij niet naar beneden springt als ik over de tooltip ga
+- zorgen dat hij gelinkt wordt aan de linegraph????!!! de eu landen moeten van kleur veranderen etc
+
+Scatterplot 
+- nog betere x variabele maken
+- zorgen dat de onBrush functie helemaal werkt
+
 
 
 
