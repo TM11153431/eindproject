@@ -1,7 +1,7 @@
 https://bellebruinsma.github.io/eindproject/week1/avond.html
 
 
-https://bellebruinsma.github.io/eindproject/week3/wauw.html
+https://bellebruinsma.github.io/eindproject/eindproject/wauw.html
 
 
 # eindproject
