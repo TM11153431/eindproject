@@ -54,6 +54,13 @@ Tabel:
 - zorgen dat het tweede tabel zijn bijbehorende info laat zien
 - zorgen dat de data wordt ingeladen
 
+PieChart:
+- MAKEN
+
+
+---------------------------
+
+
 Scatterplot 
 - nog betere x variabele maken
 - zorgen dat de onBrush functie helemaal werkt
