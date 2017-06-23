@@ -37,6 +37,8 @@ Woensdag 21 juni: Vandaag heb ik een mooi template gemaakt en alle losse dingen 
 
 Donderdag 22 juni: vandaag ben ik bezig geweest om de tooltip rechts van mijn linegraph te zetten. Vervolgens heb ik een tabel gemaakt met Datatables maar dit duurde allemaal enorm lang. Uiteindelijk is het gelukt om de table in de buurt te krijgen van de linegraph maar elke keer als er over de tooltip heen wordt gescrolled dan gaat hij naar beneden. Verder is de dataset van de linegraph nog in het js file en niet ingeladen. 
 
+Vrijdag 23 juni: Vandaag heb ik mijn tabel onder de line graph gezet en ga nu zorgen dat wanneer ik over de landen hover met mijn muis in de line graph, de bijbehorden dingen in mijn tabel worden gehighlight. Vervolgens druk ik op een land en zie ik de bijbehorende tabel met de landen die meebetalen aan het fonds.
+
 morgen af:
 
 Linegraph: 
@@ -49,8 +51,8 @@ Linegraph:
 
 Tabel:
 - tabel namen moeten kleiner
-- zorgen dat hij niet naar beneden springt als ik over de tooltip ga
-- zorgen dat hij gelinkt wordt aan de linegraph????!!! de eu landen moeten van kleur veranderen etc
+- zorgen dat het tweede tabel zijn bijbehorende info laat zien
+- zorgen dat de data wordt ingeladen
 
 Scatterplot 
 - nog betere x variabele maken
