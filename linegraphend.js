@@ -1,10 +1,14 @@
 
+//[{"x":2000,"y":39.3,"type":"nooit"},{"x":2001,"y":39.8,"type":"nooit"},{"x":2002,"y":41,"type":"nooit"},{"x":2003,"y":42.3,"type":"nooit"},{"x":2004,"y":44.2,"type":"nooit"},{"x":2005,"y":45.3,"type":"nooit"},{"x":2006,"y":46.3,"type":"nooit"},{"x":2007,"y":47.1,"type":"nooit"},{"x":2008,"y":47.6,"type":"nooit"},{"x":2009,"y":47.6,"type":"nooit"},{"x":2010,"y":49.6,"type":"nooit"},{"x":2011,"y":50.9,"type":"nooit"},{"x":2012,"y":51.8,"type":"nooit"},{"x":2013,"y":52.1,"type":"nooit"},{"x":2014,"y":52.5,"type":"nooit"},{"x":2015,"y":52.5,"type":"nooit"},{"x":2016,"y":53.3,"type":"nooit"},{"x":2017,"y":54.4,"type":"nooit"},{"x":2018,"y":54.9,"type":"nooit"},{"x":2019,"y":55.3,"type":"nooit"},{"x":2020,"y":55.7,"type":"nooit"},{"x":2021,"y":56.1,"type":"nooit"},{"x":2022,"y":56.4,"type":"nooit"},{"x":2023,"y":56.7,"type":"nooit"},{"x":2024,"y":57,"type":"nooit"},{"x":2025,"y":57.3,"type":"nooit"},{"x":2026,"y":57.7,"type":"nooit"},{"x":2027,"y":58.1,"type":"nooit"},{"x":2028,"y":58.4,"type":"nooit"},{"x":2029,"y":58.7,"type":"nooit"},{"x":2030,"y":58.9,"type":"nooit"},{"x":2031,"y":59.4,"type":"nooit"},{"x":2032,"y":59.9,"type":"nooit"},{"x":2033,"y":60.4,"type":"nooit"},{"x":2034,"y":60.9,"type":"nooit"},{"x":2035,"y":61.4,"type":"nooit"},{"x":2036,"y":61.9,"type":"nooit"},{"x":2037,"y":62.4,"type":"nooit"},{"x":2038,"y":63,"type":"nooit"},{"x":2039,"y":63.5,"type":"nooit"},{"x":2040,"y":64.1,"type":"nooit"},{"x":2041,"y":64.6,"type":"nooit"},{"x":2042,"y":65.2,"type":"nooit"},{"x":2043,"y":65.7,"type":"nooit"},{"x":2044,"y":66.3,"type":"nooit"},{"x":2045,"y":66.8,"type":"nooit"},{"x":2046,"y":67.4,"type":"nooit"},{"x":2047,"y":68,"type":"nooit"},{"x":2048,"y":68.5,"type":"nooit"},{"x":2049,"y":69.1,"type":"nooit"},{"x":2050,"y":69.7,"type":"nooit"},{"x":2051,"y":70.3,"type":"nooit"},{"x":2052,"y":70.9,"type":"nooit"},{"x":2053,"y":71.5,"type":"nooit"},{"x":2054,"y":72.2,"type":"nooit"},{"x":2055,"y":72.8,"type":"nooit"},{"x":2056,"y":73.4,"type":"nooit"},{"x":2057,"y":74,"type":"nooit"},{"x":2058,"y":74.6,"type":"nooit"},{"x":2059,"y":75.3,"type":"nooit"},{"x":2060,"y":75.9,"type":"nooit"},{"x":2061,"y":76.5,"type":"nooit"},{"x":2062,"y":77.1,"type":"nooit"},{"x":2063,"y":77.7,"type":"nooit"},{"x":2064,"y":78.4,"type":"nooit"},{"x":2065,"y":79,"type":"nooit"},{"x":2066,"y":79.6,"type":"nooit"},{"x":2067,"y":80.2,"type":"nooit"},{"x":2068,"y":80.8,"type":"nooit"},{"x":2069,"y":81.4,"type":"nooit"},{"x":2070,"y":82.1,"type":"nooit"},{"x":2071,"y":82.7,"type":"nooit"},{"x":2072,"y":83.3,"type":"nooit"},{"x":2073,"y":83.9,"type":"nooit"},{"x":2074,"y":84.5,"type":"nooit"},{"x":2075,"y":85.1,"type":"nooit"},{"x":2076,"y":85.8,"type":"nooit"},{"x":2077,"y":86.4,"type":"nooit"},{"x":2078,"y":87,"type":"nooit"},{"x":2079,"y":87.6,"type":"nooit"},{"x":2080,"y":88.2,"type":"nooit"},{"x":2081,"y":88.8,"type":"nooit"},{"x":2082,"y":89.4,"type":"nooit"},{"x":2083,"y":90,"type":"nooit"},{"x":2084,"y":90.6,"type":"nooit"},{"x":2085,"y":91.2,"type":"nooit"},{"x":2086,"y":91.8,"type":"nooit"},{"x":2087,"y":92.4,"type":"nooit"},{"x":2088,"y":93,"type":"nooit"},{"x":2089,"y":93.7,"type":"nooit"},{"x":2090,"y":94.3,"type":"nooit"},{"x":2091,"y":94.9,"type":"nooit"},{"x":2092,"y":95.5,"type":"nooit"},{"x":2093,"y":96.1,"type":"nooit"},{"x":2094,"y":96.7,"type":"nooit"},{"x":2095,"y":97.3,"type":"nooit"},{"x":2096,"y":97.9,"type":"nooit"},{"x":2097,"y":98.5,"type":"nooit"},{"x":2098,"y":99.1,"type":"nooit"},{"x":2099,"y":99.7,"type":"nooit"},{"x":2100,"y":100.3,"type":"nooit"}],
+
+
 //************************************************************
 // Data notice the structure
 //************************************************************
 
 d3.json("types.json", function(error, data) {
 	if (error) throw error;
+	
 
 	var colors = [
 		'red',
@@ -31,6 +35,8 @@ d3.json("types.json", function(error, data) {
 	var y = d3.scale.linear()
     	.domain([-1, 140])
     	.range([height, 0]);
+    	 
+          
 	
 	var xAxis = d3.svg.axis()
     	.scale(x)
@@ -87,6 +93,20 @@ d3.json("types.json", function(error, data) {
 		.attr("width", width)
 		.attr("height", height);
 		
+		
+	/*	
+	// add the area!!!!!!!!!!!!!
+	var area = d3.svg.area()
+    	.x(function(d) { return x(d.x); })
+    	.y0(height)
+    	.y1(function(d) { return y(d.y); });     
+	  
+	  
+    svg.append("path")
+       .data(data)
+       .attr("class", "area")
+       .attr("d", area);
+	*/	
 //************************************************************
 // Create D3 line object and draw data on our SVG object
 //************************************************************
@@ -97,10 +117,12 @@ d3.json("types.json", function(error, data) {
     	.y(function(d) { return y(d.y); });	
 	
 	var tooltip = d3.select("#linegraph")
-		.append("div1")
+		.append("div")
 		.attr('class', 'tippie')
-		.style("z-index", "10")
-		.style("visibility", "hidden")
+		.style("position", "absolute")
+	    .style("z-index", "10")
+		//.style("z-index", "10")
+		.style("visibility", "visible")
 		
 	svg.selectAll('.line')
 		.data(data)
@@ -151,64 +173,73 @@ d3.json("types.json", function(error, data) {
         	}
         	
         })
-        .on('mousemove', function() {return tooltip.style("top", "-350px").style("left", "5px");})
-
         
-    // Define the div for the tooltip
-	var div = d3.select("body").append("div")	
-    	.attr("class", "tooltip")				
-    	.style("opacity", 0);	
+		.on("mousemove", function(){return tooltip.style("top", (event.pageY-100)+"px").style("left",(event.pageX+50)+"px");})
+        
+		.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
 //************************************************************
 // Zoom specific updates
 //************************************************************
+	
 	function zoomed() {
 		svg.select(".x.axis").call(xAxis);
 		svg.select(".y.axis").call(yAxis);   
 		svg.selectAll('path.line').attr('d', line);  
-	}
-	
-	var svg2 = d3.select("#legend")
-    .append("svg")
-    .attr("width", 30)
-    .attr("height", 20*data.length);
-        
- var legend = svg2.append("g")
-                  .attr("class", "legend1")
-                  .attr('transform', 'translate(-20,50)') 
+	}     
+          
                   
 //************************************************************
 // Legend
 //************************************************************    
+	
 
-legend.selectAll('rect')
-  .data(data)
-  .enter()
-  .append("rect")
-  .attr("x", 30)
-  .attr("y", function(d, i){ return (i-1) *  20;})
-  .attr("width", 5)
-  .attr("height", 5)
-  .style("fill", function(d, i) { 
-    var color = colors[i%colors.length];
-    return color;
-  })
+	var svg2 = d3.select("#legend")
+    	.append("svg")
+    	.attr("width", 80)
+    	.attr("height", 20*data.length);
+            
+    
+ 	var legend = svg2.append("g")
+        .attr("class", "legend1")
+        .attr('transform', 'translate(-20,70)') 
 
-legend.selectAll('text')
-  .data(data)
-  .enter()
-  .append("text")
-  .attr("x", 40)
-  .attr("width", 5)
-  .attr("height", 5)
-  .attr("y", function(d, i){ return (i-1) *  20 + 5;})
-  .text(function(d, i) {
-    var text = colors[i%colors.length];
-    return text;
-  });
+
+	legend.selectAll('rect')
+  		.data(data)
+  		.enter()
+  		.append("rect")
+  		.attr("x", 30)
+  		.attr("y", function(d, i){ return (i-1) *  20;})
+  		.attr("width", 5)
+  		.attr("height", 5)
+  		.style("fill", function(d, i) { 
+    		var color = colors[i%colors.length];
+    			return color;
+  		})
+
+	legend.selectAll('text')
+  		.data(data)
+  		.enter()
+  		.append("text")
+  		.attr("x", 40)
+  		.attr("width", 30)
+  		.attr("height", 10)
+  		.attr("y", function(d, i){ return (i-1) *  20 + 5;})
+  		.text(function(d, i) {
+    		var text = colors[i%colors.length];
+    		return text;
+  		});
+  		highlight();
 });
 
-    var dataSet = [
+
+
+//************************************************************
+// Data for table
+//************************************************************  
+
+    var eu = [
         ['Sweden','581','581','59.31','59','6'],
         ['Luxembourg','46.8','33.4','58.63','111','21'],
         ['Norway','258','581','50.20','97','9'],
@@ -222,36 +253,42 @@ legend.selectAll('text')
         ['United States of America','3000','3000','9.41','55','17'],
         ['Finland','107','46.4','8.49','50','10'], 
         ['Netherlands','134','134','7.94','52','10'],
-        ['Australia','187','187','7.92','62','17'],
-        ['Canada','277','277','7.79','50','14'],
         ['Belgium','66.9','66.9','6.18','48','9'],
         ['Italy','334','268','4.54','35','7'],
         ['Austria','34.8','34.8','4.09','51','8'],  
-        ['Spain','161','161','3.46','30','6'],
-        ['Republic of Korea','100','100','1.99','28','12'],
+        ['Spain','161','161','3.46','30','6'],        
         ['Iceland','1','0.50','1.55','52','6'],
         ['Liechtenstein','<0.1','<0.1','1.48','135','1'],
         ['Estonia','1.30','1.3','0.99','20','14'],
-        ['New Zealand','2.56','2.56','0.57','20','10'],
+        ['Poland','0.11','0.11','<0.01','4','2'],
+        ['Romania','0.10','0.10','0.01','10','4'],
         ['Czech Republic','5.32','5.32','0.57','20','10'],
-        ['Malta','0.20','0.20','0.47','23','6'],
-        ['Hungary','4.30','4.30','0.43','14','5'],    
-        ['Panama','1','1','0.25','12','3'],
+        ['Hungary','4.30','4.30','0.43','14','5'],     
         ['Latvia','0.47','0.47','0.24','16','4'],
-        ['Mexico','10','10','0.08','10','4'],
         ['Lithuania','0.10','0.10','59.31','59','6'],
         ['Bulgaria','0.10','0.10','0.02','8','7'], 
-        ['Chile','0.30','0.30','0.02','15','5'],
-        ['Colombia','6','0.30','<0.01','8','2'],
-        ['Romania','0.10','0.10','0.01','10','4'],
-        ['Poland','0.11','0.11','<0.01','4','2'],
-        ['Indonesia','0.25','0.25','<0.01','4','2'],
-        ['Cyprus','0.50','-','0','27','7'],
         ['Ireland','2.70','-','0','53','8'],
-        ['Vietnam','0.10','-','0','2','2'],
         ['Portugal','2.68','-','0','22','5'],
+        ['Cyprus','0.50','-','0','27','7']
+    ];
+        
+    var developed = [
+        ['Australia','187','187','7.92','62','17'],
+        ['Canada','277','277','7.79','50','14'],
+        ['Republic of Korea','100','100','1.99','28','12']
+	];
+
+    var developing = [
+        ['Panama','1','1','0.25','12','3'],
         ['Peru','6','581','-','0','2'],
+        ['Vietnam','0.10','-','0','2','2'],
+        ['Indonesia','0.25','0.25','<0.01','4','2'],
+        ['Colombia','6','0.30','<0.01','8','2'],
+        ['New Zealand','2.56','2.56','0.57','20','10'],
+        ['Mexico','10','10','0.08','10','4'],
         ['Mongolia','<0.1','-','0','4','7'],
+        ['Chile','0.30','0.30','0.02','15','5']
+ 
     ];
     
     var dataSet1 = [
@@ -263,17 +300,14 @@ legend.selectAll('text')
     ];
 
 
-//function table(country) {
-//	if country == 
-//}
-
-//highlight("EU");
-
+//************************************************************
+// Table 1
+//************************************************************ 
 
 function highlight (country) {
-	$('#demo0').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example0" height="20px"></table>' );
+	$('#demo0').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example0""></table>' );
 
-     var table = $('#example0').dataTable( {
+     var table = $('#example0').DataTable( {
 		paging: false,
 		select: true,
         "data": dataSet1,
@@ -283,43 +317,46 @@ function highlight (country) {
             { "title": "Signed" } 
         ],
         "createdRow": function ( row, data, index ) {
+   
             if ( data[0] == country) {
-            	
-            
-                $('td', row).addClass('highlight');
-                
-            }
-            
-            $('#example0').on( 'click', 'tr', function () {
-            	//console.log(data[0])
-        		if(data[0] == "EU"){
-        			console.log("EU")
-        		}
-        		if(data[0] == "CHINA"){
-        			console.log("CHINA")
-        		}
-        		
-        		
-            });
+      
+                $('td', row).addClass('highlight');   
+            }   
         }
-
     });
+    $('#example0 tbody').on('click', 'tr', function () {
+        var data = table.row( this ).data();
+        if(data[0] == "EU"){
+        	countries(eu);
+        }
+        if(data[0] == "DEVELOPED"){
+        	countries(developed)
+        }
+        if(data[0] == "DEVELOPING"){
+        	countries(developing)
+        }
+    });
+    
  };
  
 /*
 on mouseover clear .destroy data when onclick
 */
+//************************************************************
+// Table 2
+//************************************************************ 
 	
 function countries(country) {
 
-    $('#demo').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example" height="20px"></table>' );
+//.on('mousemove', function() {return tooltip.style("top", "-380px").style("left", "750px");})
+
+    $('#demo').html( '<table top:"350" cellpadding="0" cellspacing="0" border="0" class="display" id="example" height="200px" ></table>' );
      $('#example').dataTable( {
      
         scrollY: '50vh',
         scrollCollapse: true,
-  
         paging: false,
-        "data": dataSet,
+        "data": country,
         "columns": [
         	
             { "title": "Contributor" },
