@@ -39,27 +39,26 @@ Donderdag 22 juni: vandaag ben ik bezig geweest om de tooltip rechts van mijn li
 
 Vrijdag 23 juni: Vandaag heb ik mijn tabel onder de line graph gezet en ga nu zorgen dat wanneer ik over de landen hover met mijn muis in de line graph, de bijbehorden dingen in mijn tabel worden gehighlight. Vervolgens druk ik op een land en zie ik de bijbehorende tabel met de landen die meebetalen aan het fonds.
 
-morgen af:
+Zaterdag 24 juni: Ging allemaal weer erg moeizaam. Vandaag heb ik de lijnen goed gemaakt van de verschillende werelddelen, de tooltips alsnog bij de muis gezet, het tabel naast de lijngrafiek gedaan, gezorgt dat op on.click de tabel met de goede data verschijnt. De legende maken lukte niet goed want ik wil de namelijk bij mijn lijn in de line graph hebben staan. Ook wil ik de erea van de korte lijnen vullen met blauwsel maar dit lukte ook nog niet. Tot slot staat de tweede tabel nog op de eerste tabel.
+
+Morgen wil ik afhebben: legende eigenlijk, tabel op de goede plaats, data inladen van buitenaf, pie chart, verhaaltje op de goede plek. 
+
+Nog gedaan:
 
 Linegraph: 
 - goede data bij de wereld delen
 - een y-as
-- tooltip moet rechts staan en een bepaalde grote hebben
 - tooltips moeten nog info krijgen
-- line voor EU, China, Developing, developed countries moet er nog bij
 - legende maken
 
 Tabel:
 - tabel namen moeten kleiner
-- zorgen dat het tweede tabel zijn bijbehorende info laat zien
 - zorgen dat de data wordt ingeladen
 
 PieChart:
 - MAKEN
 
-
 ---------------------------
-
 
 Scatterplot 
 - nog betere x variabele maken
