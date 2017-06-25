@@ -41,22 +41,24 @@ Vrijdag 23 juni: Vandaag heb ik mijn tabel onder de line graph gezet en ga nu zo
 
 Zaterdag 24 juni: Ging allemaal weer erg moeizaam. Vandaag heb ik de lijnen goed gemaakt van de verschillende werelddelen, de tooltips alsnog bij de muis gezet, het tabel naast de lijngrafiek gedaan, gezorgt dat op on.click de tabel met de goede data verschijnt. De legende maken lukte niet goed want ik wil de namelijk bij mijn lijn in de line graph hebben staan. Ook wil ik de erea van de korte lijnen vullen met blauwsel maar dit lukte ook nog niet. Tot slot staat de tweede tabel nog op de eerste tabel.
 
+Zondag 25 juni: Vandaag heb ik de piechart gemaakt en de twee tabellen verbetererd en wat dingen opgeschoond. De tabellen en piechart krijg ik maar niet op de goede plek in de html dus dat moet ik morgen even vragen hoe dat nu zit. Verder heb ik wat story telling gedaan.
+
 Morgen wil ik afhebben: legende eigenlijk, tabel op de goede plaats, data inladen van buitenaf, pie chart, verhaaltje op de goede plek. 
 
 Nog gedaan:
 
 Linegraph: 
-- goede data bij de wereld delen
 - een y-as
-- tooltips moeten nog info krijgen
 - legende maken
+- fill area van de verschillende landen
 
 Tabel:
-- tabel namen moeten kleiner
+- tabel moet onder elkaar
+- de search en entries moeten weg
 - zorgen dat de data wordt ingeladen
 
 PieChart:
-- MAKEN
+- Moet op goede plek komen te staan
 
 ---------------------------
 
