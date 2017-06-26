@@ -43,28 +43,24 @@ Zaterdag 24 juni: Ging allemaal weer erg moeizaam. Vandaag heb ik de lijnen goed
 
 Zondag 25 juni: Vandaag heb ik de piechart gemaakt en de twee tabellen verbetererd en wat dingen opgeschoond. De tabellen en piechart krijg ik maar niet op de goede plek in de html dus dat moet ik morgen even vragen hoe dat nu zit. Verder heb ik wat story telling gedaan.
 
-Morgen wil ik afhebben: legende eigenlijk, tabel op de goede plaats, data inladen van buitenaf, pie chart, verhaaltje op de goede plek. 
+Maandag 26 juni: Vandaag heb ik de tabellen aangepast zodat er geen search en entries stonden. Tevens heb ik alles op de goede plek gezet. Voor de scatterplot heb ik nieuwe data gevonden waardoor het verhaal beter is. Nu moet ik wel zorgen dat de x as veranderd. Ook heb ik bijna een legende gemaakt voor bij de line graph. Helaas wordt hij niet zichtbaar dus ik moet dat morgen nog even beter vragen.
+
+
+
 
 Nog gedaan:
 
 Linegraph: 
-- een y-as
 - legende maken
-- fill area van de verschillende landen
 
 Tabel:
-- tabel moet onder elkaar
-- de search en entries moeten weg
 - zorgen dat de data wordt ingeladen
-
-PieChart:
-- Moet op goede plek komen te staan
+- click op America tweede tabel weg
 
 ---------------------------
 
-Scatterplot 
-- nog betere x variabele maken
-- zorgen dat de onBrush functie helemaal werkt
+Scatterplot:
+- zorgen dat de x as veranderd
 
 
 
