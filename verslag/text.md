@@ -45,22 +45,23 @@ Zondag 25 juni: Vandaag heb ik de piechart gemaakt en de twee tabellen verbetere
 
 Maandag 26 juni: Vandaag heb ik de tabellen aangepast zodat er geen search en entries stonden. Tevens heb ik alles op de goede plek gezet. Voor de scatterplot heb ik nieuwe data gevonden waardoor het verhaal beter is. Nu moet ik wel zorgen dat de x as veranderd. Ook heb ik bijna een legende gemaakt voor bij de line graph. Helaas wordt hij niet zichtbaar dus ik moet dat morgen nog even beter vragen.
 
+dinsdag 27 juni
 
+woensdag 28 juni: legende, x-as logaritmische schaal. Verhaal bedenken.
+
+Donderdag: Storytelling, legende, tabel
+
+- Wat is Paris Agreement
+- America gaat eruit wat zijn daar de gevolgen van
+- Hoe kan de rest van de wereld het gat vullen met America door renewable energy
+- Wat kan er mee te maken hebben dat landen daarin investeren
 
 
 Nog gedaan:
 
-Linegraph: 
-- legende maken
-
 Tabel:
-- zorgen dat de data wordt ingeladen
 - click op America tweede tabel weg
 
----------------------------
-
-Scatterplot:
-- zorgen dat de x as veranderd
 
 
 
