@@ -1,0 +1,82 @@
+<!-- 	
+	student: Belle Bruinsma
+	student number: 10676759
+	datum: 29 juni 2017
+	vak: eindproject programmeren 
+-->
+<!DOCTYPE html>
+<html>
+	<title>Paris Agreement</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- style sheets for template, bootstrap, this project -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/eindproject/style/renewables.css">
+		<!-- jquery, bootstrap, d3v4 -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="/eindproject/index/renewables.js"></script>
+		
+	
+<body>
+	<!-- Navbar (sit on top) -->
+	<div class="w3-top">
+  		<div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+    		<a href="paris_agreement.html" class="w3-bar-item w3-button">Paris Agreement</a>
+    		<!-- Right-sided navbar links. Hide them on small screens -->
+    		<div class="w3-right w3-hide-small">
+      		<a href="/eindproject/index/paris_agreement.html" class="w3-bar-item w3-button">About</a>
+      		<a href="/eindproject/index/paris_agreement.html" class="w3-bar-item w3-button">Future</a>
+      		<a href="/eindproject/index/paris_agreement.html" class="w3-bar-item w3-button">Next</a>
+      		<a href="/eindproject/index/renewables.html" class="w3-bar-item w3-button">Renewables</a>
+			</div>
+    	</div>
+    </div>
+
+	<!-- Page content -->
+	<div class="w3-content" style="max-width:1100px">
+
+  	<!-- About Section -->
+  	<div class="w3-row w3-padding-64" id="about">
+    	<div class="w3-col m6 w3-padding-large">
+     	 	<h1 class="w3-center">Renewable energy</h1><br>
+      		<p class="w3-large w3-text-grey w3-hide-medium">Renewable energy is energy generated from natural resources such as sunlight, wind, rain, tides and geothermal heat. </p>
+      		<p class="w3-large"> As you can see below, Iceland is the leader of producing renewable energy with 100% renewable of it's whole energy production, followed by Ethiopia (99.95%) and Norway (98%).
+      			By far the most countries have a renewable production below 40%. 
+      			There is no correlation between the amount of gas emissions and renewable energy production. China, United States, Russia and India are the largest
+      			global emitters of the world but they all score lower than 20% on producing renewable energy.  
+      			Another prediction of % renewable energy per country could be the date they signed the Paris Agreement. From 22 april 2016 all countries had the change to 
+      			sign The Paris Agreement. There is no correlation between renewable energy production and the signing date but most countries signed 6-8 months after they had the change.</p>
+    	</div>
+    	<div class="w3-col m6 w3-padding-large w3-hide-small">
+      		<img src="/eindproject/picture/windmolen.png" class="w3-round w3-image w3-opacity-min" width="700" height="400" margin-top="60px">
+    	</div>
+  	</div>
+  
+  	<!-- Menu Section -->
+  	<div class="w3-row w3-padding-64" id="menu">
+    	<div class="container-fluid text-center">    
+  			<div class="row content">
+    			<div class="col-sm-6 text-left"> 
+      				<h1> Renewable energy % vs.</h1>
+      				<select id="dropdown">
+						<option value="Signed1" selected="selected">Month Signed</option>
+						<option value="Global_emissions">Global Emissions</option>
+					</select>
+      			<div style="float:left" id="scatterplot"></div>
+    		</div>
+    		<div class="col-sm-6 text-left"> 
+      			<h1> Renewable energy % </h1>
+      			<div id="choropleth"></div>
+    		</div>
+  		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="w3-center w3-light-grey w3-padding-32">
+  		<p>By Belle Bruinsma </p>
+	</footer>
+</body>
+</html>
