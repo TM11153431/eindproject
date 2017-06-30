@@ -1,9 +1,4 @@
-https://bellebruinsma.github.io/eindproject/week1/avond.html
-
-
 https://bellebruinsma.github.io/eindproject/index/paris_agreement.html
-
-https://bellebruinsma.github.io/eindproject/week4/wauw.html
 
 
 # eindproject
