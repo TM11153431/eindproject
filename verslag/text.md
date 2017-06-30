@@ -25,9 +25,9 @@ Donderdag 15 juni: Beginnen met de tweede interactie met zoeken van data en voor
 
 Vrijdag 16 juni: Presentaties en werken 
 
-Zaterdag 17 juni: Interactie beginnen en bruiloft
+Zaterdag 17 juni: Linegaph begonnen
 
-Zondag 18 juni: Interactie beginnen en BSE
+Zondag 18 juni: Linegraph begonnen
 
 Maandag 19 juni: Zoomable multiple line graph afmaken en tooltip toevoegen. Diegene die ik wilde gebruiken kon alleen de x as verlengen. Op die manier was de grafiek totaal niet duidelijk en zou het storytelling element niet overkomen. Toen gezocht naar een nieuwe. Die nu gevonden maar er moet nog wel veel aan worden gedaan. De tooltip is nu toegevoegd maar hij weet nog niet welke lijn welke is.
 
@@ -45,22 +45,13 @@ Zondag 25 juni: Vandaag heb ik de piechart gemaakt en de twee tabellen verbetere
 
 Maandag 26 juni: Vandaag heb ik de tabellen aangepast zodat er geen search en entries stonden. Tevens heb ik alles op de goede plek gezet. Voor de scatterplot heb ik nieuwe data gevonden waardoor het verhaal beter is. Nu moet ik wel zorgen dat de x as veranderd. Ook heb ik bijna een legende gemaakt voor bij de line graph. Helaas wordt hij niet zichtbaar dus ik moet dat morgen nog even beter vragen.
 
-dinsdag 27 juni
+dinsdag 27 juni: Hele dag bezig geweest met het veranderen van de x-as van de scatterplot. Ik moet hem veranderen van d3.scaleLinear naar d3.timeformat etc. 
 
 woensdag 28 juni: legende, x-as logaritmische schaal. Verhaal bedenken.
 
 Donderdag: Storytelling, legende, tabel
 
-- Wat is Paris Agreement
-- America gaat eruit wat zijn daar de gevolgen van
-- Hoe kan de rest van de wereld het gat vullen met America door renewable energy
-- Wat kan er mee te maken hebben dat landen daarin investeren
 
-
-Nog gedaan:
-
-Tabel:
-- click op America tweede tabel weg
 
 
 
