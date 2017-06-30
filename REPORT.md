@@ -1,4 +1,4 @@
-#### Belle Bruinsma
+# Belle Bruinsma
 
 ## Beschrijving visualisatie
 
