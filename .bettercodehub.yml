@@ -1,0 +1,7 @@
+exclude:
+- /code/datatablesz.js
+- /code/morris.js
+- /code/raphael.js
+component_depth: 1
+languages:
+- javascript
