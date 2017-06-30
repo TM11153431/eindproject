@@ -15,9 +15,6 @@ Op de eerste pagina wil ik een LineGraph maken met voorspellingen tot 2100 wat e
 
 Op de tweede pagina ga ik een wereld kaart laten zien met drie verschillende kleuren die duidelijk maken of zij hebben “signed”, “signed & ratified” en “unsigned”. Ook is per land te zien wat het aandeel in percentage emissions is ten opzichte van de wereld. Wanneer je op een land drukt is daaronder vanaf 1990 tot 2015 te zien elk land doet aan “Share of wind and solar in electricity production (%)” en “Share of renewables in electricity production (incl hydro) (%)”. Deze twee kan je omwisselen via een checkbox.
 
-•	advanced sketches of your UI that clearly explain which features are connected to which underlying part of the code
-
-
 ![alt text](https://github.com/BelleBruinsma/eindproject/blob/master/pictures/eerste1.jpg "Schets 1")
 ![alt text](https://github.com/BelleBruinsma/eindproject/blob/master/pictures/tweede2.jpg "Schets 2")
 
@@ -49,5 +46,10 @@ Mitigation of CO2eq from Ref
 Voor China, US, EU, developed countries, developing countries
 Vanaf 2000 tot 2100
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/BelleBruinsma/eindproject?branch=master)](https://bettercodehub.com/)
-<img src='https://bettercodehub.com/edge/badge/BelleBruinsma/eindproject?branch=master'>
+Sources: 
+De data die ik heb gebruikt komt van:
+[Green Climate Fund](http://www.greenclimate.fund/how-we-work/resource-mobilization)
+[NY times](https://www.nytimes.com/interactive/2017/05/31/climate/trump-climate-paris-agreement.html)
+[UNFCC](hhttp://unfccc.int/paris_agreement/items/9485.php)
+[Renewable energy](https://yearbook.enerdata.net/)
+
