@@ -17,8 +17,10 @@ Op de tweede pagina ga ik een wereld kaart laten zien met drie verschillende kle
 
 •	advanced sketches of your UI that clearly explain which features are connected to which underlying part of the code
 
-(1.JPG)
-(2.JPG)
+
+![alt text](https://github.com/BelleBruinsma/eindproject/blob/master/pictures/1.JPG "Schets 1")
+![alt text](https://github.com/BelleBruinsma/eindproject/blob/master/pictures/2.JPG "Schets 2")
+
 
 •	a list of APIs and frameworks or plugins that you will be using to provide functionality in your app
 •	a list of data sources if you will get data from an external source
